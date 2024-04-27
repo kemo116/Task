@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FirebaseService } from './services/firebase.service';
+import { Router, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Task';
+
+  title='TASK';
+  
 }
